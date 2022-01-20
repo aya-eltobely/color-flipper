@@ -1,0 +1,96 @@
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default if you use "mobile first" */
+/* Small devices (landscape phones, 576px and up) */
+
+
+.nav1
+{
+    padding: 30px 0 ;
+    background-color: #fff;
+}
+.nav1 section
+{
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1 section h4
+{
+    color:#49A6E9 ;
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav1 section ul
+{
+    list-style: none;
+}
+.nav1 section ul li
+{
+    display: inline-block;
+}
+.nav1 section ul li:first-of-type
+{
+    margin-right: 30px;
+}
+.nav1 section ul li a
+{
+    color: #063251;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+main
+{
+    background-color:#F1F5F8 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 220px 0;
+    text-align: center;
+} 
+main section h4
+{
+    background-color:#222222 ;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+main section h4 span
+{
+    color:#49A6E9 ;
+}
+main section button
+{
+    text-align: center;
+    border: 2px solid #222222 ;
+    color: #222222;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: all .5s;
+}
+main section button:hover
+{
+    background-color:#222222 ;
+    color: #fff;
+}
+
+
+@media (min-width: 576px) {
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
